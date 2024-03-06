@@ -1,0 +1,92 @@
+---
+import { ReactComponent } from "../components/ReactComponent";
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <title>My Astro Blog</title>
+  </head>
+  <body class="bg-gray-100 text-gray-800">
+    <div class="container mx-auto px-4 py-8">
+      <div class="text-center">
+        <img
+          src="headshot.jpeg"
+          alt="Gavin Jakubik"
+          class="mx-auto mb-6 h-64 w-64 rounded-full"
+        />
+        <h1 class="mb-2 text-4xl font-bold">Gavin Jakubik</h1>
+        <p class="text-xl text-gray-600">Software Engineer</p>
+      </div>
+
+      <div class="mt-8">
+        <p class="text-lg">
+          Hi there! I'm a skilled software engineer with experience in
+          full-stack web development. Now hacking away on iCapital's platform,
+          and my own projects in my free time.
+        </p>
+
+        <div class="mt-8">
+          <h2 class="mb-4 text-3xl font-bold">Selected Projects</h2>
+          <ul class="space-y-6">
+            <li>
+              <h3 class="text-xl font-semibold">
+                <a href="/projects#recipi" class="hover:text-blue-600">Recipi</a
+                >
+              </h3>
+              <p class="text-gray-600">
+                Envisioned and developed a novel website for recipe storage and
+                management using Next.js, React, and more.
+              </p>
+            </li>
+            <li>
+              <h3 class="text-xl font-semibold">
+                <a href="/projects#mews" class="hover:text-blue-600"
+                  >Misinformation Early Warning System</a
+                >
+              </h3>
+              <p class="text-gray-600">
+                Built a responsive React frontend for an image scraping machine
+                learning project presented at NeurIPS 2021.
+              </p>
+            </li>
+          </ul>
+          <a
+            href="/projects"
+            class="mt-4 inline-block text-blue-600 hover:underline"
+            >View all projects &rarr;</a
+          >
+        </div>
+
+        <div class="mt-12">
+          <h2 class="mb-4 text-3xl font-bold">Recent Blog Posts</h2>
+          <ul class="space-y-4">
+            <li>
+              <a href="/blog/post-1" class="text-lg hover:text-blue-600"
+                >My Journey Learning React</a
+              >
+            </li>
+            <li>
+              <a href="/blog/post-2" class="text-lg hover:text-blue-600"
+                >Tips for Optimizing Web Performance</a
+              >
+            </li>
+          </ul>
+          <a
+            href="/blog"
+            class="mt-4 inline-block text-blue-600 hover:underline"
+            >Read more posts &rarr;</a
+          >
+        </div>
+
+        <div class="mt-12">
+          <a href="/resume" class="text-lg text-blue-600 hover:underline"
+            >View my full resume &rarr;</a
+          >
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
